@@ -8,8 +8,11 @@ while i < 4 :
 	if password == 'a123456':
 		print('登入成功')
 		break
+	elif i >= 1 and i < 3:
+		print('密碼錯誤!，還有',3-i,'次機會')	
+		
 	else:
-		print('密碼錯誤!，還有 %d次機會', 3-i)	
+		print("沒有機會了")
 	i=i+1
 
 
